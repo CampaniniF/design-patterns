@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Strategy.Algorithms
 {
-	public class Cool
+	public class Cool : IGreeter
 	{
 		public IEnumerable<string> Execute(IEnumerable<string> inputList)
 		{

@@ -11,7 +11,7 @@ namespace Adapter
 				new MallardDuck(),
 				new MallardDuck(),
 				// TODO when you have written a new TurkeyAdapter class, the line below should work
-				//new TurkeyAdapter(new Turkey())
+				new TurkeyAdapter(new Turkey())
 			};
 
 			foreach (var bird in fowl) {
